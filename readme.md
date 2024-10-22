@@ -13,8 +13,8 @@ This project automatically creates a Google Meet link for daily scrum meetings a
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/daily-scrum-link-generator.git
-cd daily-scrum-link-generator
+git clone https://github.com/Vanny2000/google_meet.git
+cd google_meet
 ```
 
 2. Create a virtual environment:
