@@ -67,9 +67,12 @@ def send_telegram_message(meet_link):
 
 def main():
 
+    now = datetime.now()
     meet_link = create_meet_link()
     send_telegram_message(meet_link)
-    print("Meeting link sent to Telegram group.")
+    print(
+        f"Meeting link sent to Telegram group on {now.strftime('%Y-%m-%d')} at {now.strftime('%H:%M:%S')}."
+    )
 
 
 if __name__ == "__main__":
